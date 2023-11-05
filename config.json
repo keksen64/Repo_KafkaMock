@@ -1,0 +1,17 @@
+[
+    {
+       
+		"kafkabss": "ltkfk2:9098,ltkfk1:9098", 
+        "kafkaTopic": "X_CREDIT_NT",   
+        "influxHost": "infHost",  
+        "influxPort": "8086",  
+        "influxDB": "Transactions", 
+		"mockPort": "9094",
+        "mockEndpoint": "/bank-api/secured/integrations/",
+		"authEndpoint": "/bank-gateway/auth/realx/corporate/protocol/openid-connect/token",		
+		"webserverThreadsCount": "300",  
+		"httpDelayMS": "500",
+		"kafkaDelayMS": "5000",
+		"sendMetric": "enable"
+	}
+]
